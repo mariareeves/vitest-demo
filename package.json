@@ -1,0 +1,23 @@
+{
+  "name": "vitest-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "vitest run"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.701.0",
+    "@aws-sdk/lib-storage": "^3.705.0",
+    "pg": "^8.13.1",
+    "testcontainers": "^10.15.0"
+  }
+}
